@@ -7,9 +7,12 @@ Welcome to Bento's documentation!
 =================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
+   installation/bento-quick-start
+   installation/bento_aws_installation
+   configuration/case-detail-page
 
 .. image:: assets/Bento-Header-Logo.png
 
