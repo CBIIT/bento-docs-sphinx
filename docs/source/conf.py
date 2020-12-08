@@ -33,6 +33,7 @@ release = '1.0'
 extensions = [
     'recommonmark',
     'sphinx_multiversion',
+    'sphinx_rtd_theme',
     'sphinx.ext.autosectionlabel',
 ]
 
@@ -64,24 +65,45 @@ exclude_patterns = []
 #html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
 
+## for alabaster
+#html_theme_options = {
+#    "github_repo": "bento-docs-sphinx",
+#    "github_user": "CBIIT",
+#    "github_banner": True,
+#    "github_button": True,
+#    "travis_button": True,
+#    "show_relbar_bottom": True,
+#}
+
+# for sphinx-rtd-theme
 html_theme_options = {
-    "github_repo": "bento-docs-sphinx",
-    "github_user": "CBIIT",
-    "github_banner": True,
-    "github_button": True,
-    "travis_button": True,
-    "show_relbar_bottom": True,
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'vcs_pageview_mode': '',
+    'style_nav_header_background': 'white',
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
 }
 
-html_sidebars = {
-    "**": [
-        "about.html",
-        "navigation.html",
-        "relations.html",
-        "searchbox.html",
-        "versioning.html",
-    ],
-}
+
+# for alabaster?
+#html_sidebars = {
+#    "**": [
+#        "about.html",
+#        "navigation.html",
+#        "relations.html",
+#        "searchbox.html",
+#        "versioning.html",
+#    ],
+#}
+
+
 
 smv_remote_whitelist = r"^origin$"
 smv_branch_whitelist = r"^master$"
