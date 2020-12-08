@@ -1,8 +1,3 @@
----
-sort: 8
-title: Cart Workflow
----
-
 # Cart Workflow
 
 ## Introduction

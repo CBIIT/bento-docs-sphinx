@@ -1,8 +1,3 @@
----
-sort: 3
-title: Bento Framework on AWS
----
-
 # Deploying Bento on AWS
 This is the user documentation on provisioning bento on AWS.
 

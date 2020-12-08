@@ -1,8 +1,3 @@
----
-sort: 5
-title: Bento Framework on GCP Kubernetes
----
-
 # Deploying Bento on GCP 
 This is the user documentation on provisioning bento on AWS.
 

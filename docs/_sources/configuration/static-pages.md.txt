@@ -1,8 +1,3 @@
----
-sort: 9
-title: Static Pages
----
-
 # Static Pages
 
 ## Introduction
