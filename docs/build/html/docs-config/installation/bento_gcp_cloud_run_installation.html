@@ -80,13 +80,40 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="bento-quick-start.html">Quick Start Tutorial</a></li>
-<li class="toctree-l1"><a class="reference internal" href="bento_aws_installation.html">Deploying Bento on AWS</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../configuration/case-detail-page.html">Case Detail Page</a></li>
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Deploying Bento on GCP Cloud Run</a><ul>
+<li><a class="reference internal" href="#a-introduction">A. Introduction</a><ul>
+<li><a class="reference internal" href="#b-disclaimer">B. Disclaimer</a></li>
 </ul>
-
+</li>
+<li><a class="reference internal" href="#c-architecture">C. Architecture</a></li>
+<li><a class="reference internal" href="#d-pre-requisites">D. Pre-requisites</a></li>
+<li><a class="reference internal" href="#e-installations">E. Installations</a><ul>
+<li><a class="reference internal" href="#a-clone-bento-framework">a) Clone Bento Framework</a></li>
+<li><a class="reference internal" href="#b-setup-gcp-environment">b) Setup GCP Environment</a></li>
+<li><a class="reference internal" href="#c-populate-vars-tfvars-file">c) Populate vars.tfvars file</a></li>
+<li><a class="reference internal" href="#d-deploy-application">d) Deploy Application</a></li>
+<li><a class="reference internal" href="#e-verify-deployment">e) Verify Deployment</a></li>
+<li><a class="reference internal" href="#f-teardown">f) Teardown</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#f-application-updates">F. Application Updates</a><ul>
+<li><a class="reference internal" href="#a-edit-vars-tfvars-file">a) Edit  vars.tfvars file</a></li>
+<li><a class="reference internal" href="#b-apply-changes-to-terraform-state">b) Apply changes to terraform state</a></li>
+<li><a class="reference internal" href="#c-apply-changes-using-ansible">c) Apply Changes using Ansible</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#g-data-model-updates">G. Data Model Updates</a><ul>
+<li><a class="reference internal" href="#id1">a) Edit  vars.tfvars file</a></li>
+<li><a class="reference internal" href="#id2">b) Apply changes to terraform state</a></li>
+<li><a class="reference internal" href="#id3">c) Apply Changes using Ansible</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
             
           
         </div>

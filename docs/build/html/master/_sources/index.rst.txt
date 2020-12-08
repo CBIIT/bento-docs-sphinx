@@ -1,26 +1,25 @@
-.. Bento documentation master file, created by
-   sphinx-quickstart on Mon Dec  7 22:05:00 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Bento's documentation!
-=================================
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Contents:
-
-   installation/bento-quick-start
-   installation/bento_aws_installation
-   configuration/case-detail-page
+=============================
+Bento-docs-sphinx
+=============================
 
 .. image:: assets/Bento-Header-Logo.png
 
 This is the documentation site for the Bento Project. It describes the Bento project's background and explains how to set up a data sharing platform using the Bento framework.
 
-Example site using Bento framework: https://bento-tools.org/#/
+Project Links
+=============
 
-Documentation: https://cbiit.github.io/bento-docs-sphinx
+* Source code: https://github.com/CBIIT/bento-docs-sphinx
+* Example site using Bento framework: https://bento-tools.org/#/
+
+.. toctree::
+    :maxdepth: 3
+    :caption: General
+
+    installation
+    configuration
+    data-and-modeling
+    project-info
 
 
 Indices and tables

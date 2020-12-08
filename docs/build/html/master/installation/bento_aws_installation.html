@@ -35,9 +35,7 @@
 
     
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Case Detail Page" href="../configuration/case-detail-page.html" />
-    <link rel="prev" title="Quick Start Tutorial" href="bento-quick-start.html" /> 
+    <link rel="search" title="Search" href="../search.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -47,7 +45,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search"  style="background: white" >
+        <div class="wy-side-nav-search" >
           
 
           
@@ -82,48 +80,46 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="bento-quick-start.html">Quick Start Tutorial</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Deploying Bento on AWS</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#a-introduction">A. Introduction</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#b-disclaimer">B. Disclaimer</a></li>
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Deploying Bento on AWS</a><ul>
+<li><a class="reference internal" href="#a-introduction">A. Introduction</a><ul>
+<li><a class="reference internal" href="#b-disclaimer">B. Disclaimer</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#c-architecture">C. Architecture</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#d-pre-requisites">D. Pre-requisites</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#a-aws-cli">a) AWS CLI</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#b-configure-aws-credentials">b) Configure AWS Credentials</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#c-terraform">c) Terraform</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#d-git">d) Git</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#e-ansible">e) Ansible</a></li>
+<li><a class="reference internal" href="#c-architecture">C. Architecture</a></li>
+<li><a class="reference internal" href="#d-pre-requisites">D. Pre-requisites</a><ul>
+<li><a class="reference internal" href="#a-aws-cli">a) AWS CLI</a></li>
+<li><a class="reference internal" href="#b-configure-aws-credentials">b) Configure AWS Credentials</a></li>
+<li><a class="reference internal" href="#c-terraform">c) Terraform</a></li>
+<li><a class="reference internal" href="#d-git">d) Git</a></li>
+<li><a class="reference internal" href="#e-ansible">e) Ansible</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#e-installations">E. Installations</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#a-clone-bento-framework">a) Clone Bento Framework</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#b-populate-vars-tfvars-file">b) Populate vars.tfvars file</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#c-monitor-deployment-progress">c) Monitor Deployment Progress</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#d-verify-deployment">d Verify Deployment</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#e-teardown">e) Teardown</a></li>
+<li><a class="reference internal" href="#e-installations">E. Installations</a><ul>
+<li><a class="reference internal" href="#a-clone-bento-framework">a) Clone Bento Framework</a></li>
+<li><a class="reference internal" href="#b-populate-vars-tfvars-file">b) Populate vars.tfvars file</a></li>
+<li><a class="reference internal" href="#c-monitor-deployment-progress">c) Monitor Deployment Progress</a></li>
+<li><a class="reference internal" href="#d-verify-deployment">d Verify Deployment</a></li>
+<li><a class="reference internal" href="#e-teardown">e) Teardown</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#f-application-updates">F. Application Updates</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#a-edit-vars-tfvars-file">a) Edit  vars.tfvars file</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#b-apply-changes-to-terraform-state">b) Apply changes to terraform state</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#c-apply-changes-using-ansible">c) Apply Changes using Ansible</a></li>
+<li><a class="reference internal" href="#f-application-updates">F. Application Updates</a><ul>
+<li><a class="reference internal" href="#a-edit-vars-tfvars-file">a) Edit  vars.tfvars file</a></li>
+<li><a class="reference internal" href="#b-apply-changes-to-terraform-state">b) Apply changes to terraform state</a></li>
+<li><a class="reference internal" href="#c-apply-changes-using-ansible">c) Apply Changes using Ansible</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#g-data-model-updates">G. Data Model Updates</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id1">a) Edit  vars.tfvars file</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id2">b) Apply changes to terraform state</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id3">c) Apply Changes using Ansible</a></li>
+<li><a class="reference internal" href="#g-data-model-updates">G. Data Model Updates</a><ul>
+<li><a class="reference internal" href="#id1">a) Edit  vars.tfvars file</a></li>
+<li><a class="reference internal" href="#id2">b) Apply changes to terraform state</a></li>
+<li><a class="reference internal" href="#id3">c) Apply Changes using Ansible</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../configuration/case-detail-page.html">Case Detail Page</a></li>
 </ul>
-
+</div>
             
           
         </div>
@@ -426,15 +422,6 @@ custodian_url = http://evay-alb-2073444928.us-east-1.elb.amazonaws.com
            
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="../configuration/case-detail-page.html" class="btn btn-neutral float-right" title="Case Detail Page" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="bento-quick-start.html" class="btn btn-neutral float-left" title="Quick Start Tutorial" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
