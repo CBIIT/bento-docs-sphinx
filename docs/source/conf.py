@@ -32,6 +32,7 @@ release = '1.0'
 # ones.
 extensions = [
     'recommonmark',
+    'sphinx_multiversion',
     'sphinx.ext.autosectionlabel',
 ]
 
