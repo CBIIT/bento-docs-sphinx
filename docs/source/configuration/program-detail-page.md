@@ -1,8 +1,3 @@
----
-sort: 4
-title: Program Detail Page
----
-
 # Program Detail Page
 The Program Detail Page displays detailed, program-level information for each of the programs that has submitted data to your data sharing platform. A Bento Program Detail Page has several configurable components. See below for details. 
 ![Program Detail Page Elements](https://github.com/CBIIT/bento-docs/blob/master/assets/program-detail-page.png?raw=true)

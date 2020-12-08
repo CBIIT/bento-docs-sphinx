@@ -1,8 +1,3 @@
----
-sort: 2
-title: Landing Page 
----
-
 # Landing Page
 The Landing Page provides a visual and textual introduction to the overall mission of your data sharing platform, a concise summary of the volume and diversity of stored data and a bird's eye view of what an end user can accomplish at your data sharing platform. A Bento Landing Page has several configurable components. See below for details.
 ![Landing Page Elements](https://github.com/CBIIT/bento-docs/blob/master/assets/landing-page-elements.png?raw=true)

@@ -1,8 +1,3 @@
----
-sort: 6
-title: Case Detail Page
----
-
 # Case Detail Page
 The Case Detail Page lists the key attributes of a case or study subject participating in a clinical study or research program in your data sharing platform.
 

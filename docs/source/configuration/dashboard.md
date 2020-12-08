@@ -1,8 +1,3 @@
----
-sort: 7
-title: Dashboard
----
-
 # Dashboard
 The Dashboard provides the end user with several capabilities (a) filter data entities of in interested via faceted search (b) view graphical summaries of data entities and (c) select data entities for further exploration.
 

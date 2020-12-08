@@ -1,9 +1,3 @@
----
-layout: default
-sort: 1
-title: Bento Quick Start
----
-
 # Quick Start Tutorial
 
 ## Introduction
