@@ -1,8 +1,3 @@
----
-sort: 4
-title: Bento Framework on GCP Cloud Run
----
-
 # Deploying Bento on GCP Cloud Run
 This is the user documentation on provisioning bento on AWS.
 

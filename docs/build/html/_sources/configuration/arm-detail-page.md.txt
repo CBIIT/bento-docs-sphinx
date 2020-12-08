@@ -1,8 +1,3 @@
----
-sort: 5
-title: Arm Detail Page
----
-
 # Arm  Detail Page
 The Arm Detail Page provides a summary of a Study/Project/Arm of that belongs to a Program that participates in your data sharing platform.
 

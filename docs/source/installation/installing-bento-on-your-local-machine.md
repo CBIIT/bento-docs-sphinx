@@ -1,8 +1,3 @@
----
-sort: 2
-title: Installing Bento on Your Local Machine 
----
-
 # Installing Bento on Your Local Machine
 
 ## Overview
