@@ -1,8 +1,3 @@
----
-sort: 7
-title: Bento TailoRx Model Attributes
----
-
 # Bento TailoRx Model Attributes
 
 

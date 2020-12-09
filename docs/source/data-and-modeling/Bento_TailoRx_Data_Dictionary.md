@@ -1,8 +1,3 @@
----
-sort: 5
-title: Bento TailoRx Data Dictionary
----
-
 # Bento TailoRx Data Dictionary
 
 ## Introduction

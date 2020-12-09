@@ -1,7 +1,3 @@
----
-sort: 2
-title: Model Converter
----
 # Model Converter
 This is the user documentation for the Model Converter module contained in the ICDC-Dataloader utility.
 

@@ -1,8 +1,3 @@
----
-sort: 6
-title: Relationships among Bento TailoRx node types
----
-
 # Relationships among Bento TailoRx node types
 
 Relationships among BENTO_TAILORx node types. Listed are relationships that connect node types in the BENTO_TAILORx conceptual data model, the source and destination nodes for each relationship, and the multiplicity of each relationship.
