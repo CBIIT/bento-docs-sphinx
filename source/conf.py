@@ -4,7 +4,7 @@
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 
-#import sphinx_rtd_theme
+import sphinx_rtd_theme
 
 # -- Path setup --------------------------------------------------------------
 
@@ -33,9 +33,9 @@ version = "1.1.1"
 extensions = [
     'sphinx.ext.githubpages',
     "sphinx_multiversion",
+    'sphinx_rtd_theme',
     'recommonmark'
 ]
-# sphinx_rtd_theme
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -47,7 +47,7 @@ html_sidebars = {
         "navigation.html",
         "relations.html",
         "searchbox.html",
-        "versioning.html",
+        "versions.html",
     ],
 }
 
@@ -68,34 +68,34 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
-#html_theme = 'sphinx_rtd_theme'
+#html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
-html_theme_options = {
-    "github_repo": "bento-docs-versioned",
-    "github_user": "CBIIT",
-    "github_banner": True,
-    "github_button": True,
-    "travis_button": True,
-    "show_relbar_bottom": True,
-}
+#html_theme_options = {
+#    "github_repo": "bento-docs-versioned",
+#    "github_user": "CBIIT",
+#    "github_banner": True,
+#    "github_button": True,
+#    "travis_button": True,
+#    "show_relbar_bottom": True,
+#}
 html_last_updated_fmt = "%c"
 master_doc = "index"
 
 ## sphinx_rtd_theme options
-#html_theme_options = {
-#    'logo_only': False,
-#    'display_version': True,
-#    'prev_next_buttons_location': 'bottom',
-#    'style_external_links': False,
-#    #'style_nav_header_background': 'white',
-#    # Toc options
-#    'collapse_navigation': True,
-#    'sticky_navigation': True,
-#    'navigation_depth': 4,
-#    'includehidden': True,
-#    'titles_only': False
-#}
+html_theme_options = {
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    #'style_nav_header_background': 'white',
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
