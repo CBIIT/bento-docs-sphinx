@@ -1,8 +1,3 @@
----
-sort: 4
-title: Bento Backend Framework Configuration Guide
----
-
 # Bento Backend Framework Configuration Guide
 This is the user documentation for the Bento Backend.
 

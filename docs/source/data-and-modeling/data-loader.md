@@ -1,7 +1,3 @@
----
-sort: 1
-title: Data Loader
----
 # Data Loader
 This is the user documentation for the Data Loader module contained in the ICDC-Dataloader utility.
 

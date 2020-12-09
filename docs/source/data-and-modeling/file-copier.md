@@ -1,7 +1,3 @@
----
-sort: 3
-title: File Loader
----
 # File Copier
 This is the user documentation for the File Copier module contained in the ICDC-Dataloader utility.
 

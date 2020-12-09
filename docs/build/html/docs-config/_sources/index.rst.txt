@@ -13,7 +13,7 @@ Project Links
 * Example site using Bento framework: https://bento-tools.org/#/
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
     :caption: General
 
     installation
