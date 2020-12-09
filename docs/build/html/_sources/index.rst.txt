@@ -16,11 +16,6 @@ Project Links
     :maxdepth: 1
     :caption: General
 
-    installation
-    configuration
-    data-and-modeling
-    project-info
-
 
 Indices and tables
 ==================

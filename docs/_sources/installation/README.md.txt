@@ -1,5 +1,5 @@
----
-sort: 1
----
+# Configuration
 
-# Installation
+.. toctree::
+   :caption: Configuration
+   :maxdepth: 1
