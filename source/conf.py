@@ -111,4 +111,5 @@ html_static_path = ['_static']
 #smv_released_pattern = r'^tags/.*$'
 
 smv_remote_whitelist = r"^origin$"
-smv_branch_whitelist = r"^master$"
+smv_branch_whitelist = r'^.*$'                # Include all branches
+#smv_branch_whitelist = r"^master$"
