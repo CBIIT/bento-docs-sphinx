@@ -104,10 +104,12 @@ html_static_path = ['_static']
 
 
 # Whitelist pattern for tags (set to None to ignore all tags)
-#smv_tag_whitelist = r'^.*$'                   # Include all tags
-# Pattern for released versions
-#smv_released_pattern = r'^tags/.*$'
+smv_tag_whitelist = None
 
-smv_remote_whitelist = r"^origin$"
-smv_branch_whitelist = r'^.*$'                # Include all branches
-#smv_branch_whitelist = r"^master$"
+# Whitelist pattern for branches (set to None to ignore all branches)
+# Include all branches except "gh-pages" or "docs-config"
+smv_branch_whitelist = r'^(?!gh-pages|docs-config).*$'
+
+# Whitelist pattern for remotes (set to None to use local branches only)
+# Only use local branches
+smv_remote_whitelist = None
