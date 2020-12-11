@@ -22,8 +22,6 @@ import sphinx_rtd_theme
 project = 'Bento'
 copyright = '2020, CBIIT'
 author = 'CBIIT'
-release = "1.1.0"
-version = "1.1.1"
 
 # -- General configuration ---------------------------------------------------
 
@@ -86,12 +84,12 @@ master_doc = "index"
 ## sphinx_rtd_theme options
 html_theme_options = {
     'logo_only': False,
-    'display_version': True,
+    #'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     #'style_nav_header_background': 'white',
     # Toc options
-    'collapse_navigation': True,
+    'collapse_navigation': False,
     'sticky_navigation': True,
     'navigation_depth': 4,
     'includehidden': True,
